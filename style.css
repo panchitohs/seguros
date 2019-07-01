@@ -425,25 +425,7 @@ input:-webkit-autofill:focus {
     margin: auto;
 }
 
-.single-img  {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s
-}
 
-.single-img:hover {
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    filter: grayscale(0%)
-}
 
 @media (max-width: 800px) {
     .single-img {
