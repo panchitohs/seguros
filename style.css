@@ -180,11 +180,13 @@ input:-webkit-autofill:focus {
 /**
 *Default Background Class
 **/
+.imagenim{padding: 15px;margin-top: 5%;margin-bottom: 5%;margin-left: 7%;
 
+
+}
 .overlay:before,
 .sky-bg {
-    background: hsl(192, 100%, 98%);
-    background: -webkit-gradient(linear, left top, left bottom, from( #6699cc ), to(#6699cc));
+  
     
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     
@@ -306,6 +308,7 @@ input:-webkit-autofill:focus {
     left: 0;
     top: 0;
     width: 100%;
+ 
     z-index: 9999999;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -314,7 +317,7 @@ input:-webkit-autofill:focus {
 .overlay,
 .overlay a,
 .mainmenu-area a {
-    color: #000;
+    color: #000 ;
 }
 
 .mainmenu-area .logo {
@@ -715,6 +718,9 @@ input:-webkit-autofill:focus {
 /***
 *Footer-area
 ***/
+.footer-top{background: url('images/angle-bg.png') no-repeat scroll center bottom / 100% auto;
+    z-index: -1;height: 100%;
+margin-top: 7%;}
 
 .appWhatsapp{ position: fixed;
     right: 26px;
@@ -735,10 +741,7 @@ height: auto;
     z-index: 1;
 }
 
-.footer-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom / 100% auto;
-    z-index: -1;
-}
+
 
 
 
@@ -1007,7 +1010,7 @@ body {
     
     line-height: 1.1;
     color: black;
-    background-color: 6699cc;
+
    
 }
 
@@ -1099,8 +1102,8 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: hsl(192, 100%, 98%);
-    background: -webkit-gradient(linear, left top, left bottom, from( #6699cc ), to(#6699cc));
+
+    
     
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     
@@ -1117,7 +1120,7 @@ input:-webkit-autofill:focus {
     padding: 8px 30px;
     border-radius: 50px;
     color: #ffffff;
-    background-color:  #6699cc ;
+ 
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border: none;
@@ -1560,7 +1563,7 @@ input:-webkit-autofill:focus {
     top: 20px;
     width: 36px;
     height: 36px;
-    background:  #6699cc ;
+    
     border-radius: 50%;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -1650,12 +1653,6 @@ height: auto;
 .footer-area {height: 100%;  padding-top: 10%;
     z-index: 1;
 }
-
-.footer-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom / 100% auto;
-    z-index: -1;
-}
-
 
 
 .side-icon-box {
